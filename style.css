@@ -329,7 +329,7 @@ flex-wrap: wrap;
 
 #CONCEPT .concept-item {
     width: calc(35% - 14px);
-    height: 170px;
+    height: 180px;
 }
 
 }
