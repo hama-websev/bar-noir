@@ -461,6 +461,114 @@ margin-bottom: 65px;
 opacity: 0.5;    
 }
 
+/* RESERVE */
+
+#RESERVE .reservation-box {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#RESERVE .reservation-box h3 {
+  color: #FFD700;
+    margin-top: 50px;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+ #RESERVE .reservation-title {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+ #RESERVE .contact-card {
+    border: 1px solid rgba(230, 194, 0, 0.7);
+border-radius: 8px;
+padding: 24px 0;
+max-width: 620px;
+max-height: 880px;
+margin: 0 auto;
+margin-bottom: 65px;
+ }
+
+ .form-group {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 22px;
+ }
+
+ .form-group label {
+    display: block;
+    color: #FFD700;
+    font-size: 16px;
+    margin-bottom: 6px;
+    padding-left: 25px;
+ }
+
+.form-group input,
+.form-group textarea {
+    width: 95%;
+    height: 50px;
+    padding: 0 16px;
+    border-radius: 20px;
+    border: 1px solid rgba(230, 194, 0, 0.4);
+    background: #4C4B4B;
+    color: #FFFFFF;
+    font-family: inherit;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.form-group--message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group--message label {
+    padding-left: 0;
+    margin-bottom: 12px;
+}
+
+.form-group--message textarea {
+    width: 90%;
+    height: 160px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.form-group textarea {
+    border-radius: 12px;
+    resize: none;
+}
+
+.submit-btn {
+    display: block;
+    width: 70%;
+    margin: 32px auto 16px;
+    padding: 12px 0;
+    border-radius: 24px;
+    border: none;
+    background: #E6C200;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+opacity: 0.5;    
+}
+
+.form-note {
+    text-align: center;
+    font-size: 12px;
+    color: #C8C8C8;
+}
+
 /* iPad */
 
 @media screen and (max-width: 834px) {
@@ -613,6 +721,23 @@ max-height: 500px;
 margin: 0 auto;
 margin-bottom: 65px;
 }
+
+/* RESERVE */
+
+ #RESERVE .contact-card {
+    border: 1px solid rgba(230, 194, 0, 0.7);
+border-radius: 8px;
+padding: 24px 0;
+max-width: 420px;
+max-height: 1100px;
+margin: 0 auto;
+margin-bottom: 65px;
+ }
+
+ .form-group {
+    display: flex;
+    flex-direction: column;
+ }
 
 }
 
@@ -836,6 +961,87 @@ margin-bottom: 65px;
     color: #FFFFFF;
     text-decoration: none;
     font-size: 14px;
+}
+
+/* RESERVE */
+
+ #RESERVE .contact-card {
+    border: 1px solid rgba(230, 194, 0, 0.7);
+border-radius: 8px;
+padding: 24px 0;
+max-width: 385px;
+max-height: 1200px;
+margin: 0 auto;
+margin-bottom: 65px;
+ }
+
+ .form-group label {
+    display: block;
+    color: #FFD700;
+    font-size: 14px;
+    margin-bottom: 6px;
+    padding-left: 25px;
+ }
+
+.form-group input,
+.form-group textarea {
+    width: 95%;
+    height: 50px;
+    padding: 0 16px;
+    border-radius: 20px;
+    border: 1px solid rgba(230, 194, 0, 0.4);
+    background: #4C4B4B;
+    color: #FFFFFF;
+    font-family: inherit;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.form-group--message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group--message label {
+    padding-left: 0;
+    margin-bottom: 12px;
+}
+
+.form-group--message textarea {
+    width: 90%;
+    height: 160px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.form-group textarea {
+    border-radius: 12px;
+    resize: none;
+}
+
+.submit-btn {
+    display: block;
+    width: 70%;
+    margin: 32px auto 16px;
+    padding: 12px 0;
+    border-radius: 24px;
+    border: none;
+    background: #E6C200;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+opacity: 0.5;    
+}
+
+.form-note {
+    text-align: center;
+    font-size: 10px;
+    color: #C8C8C8;
 }
 
 }
