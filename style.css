@@ -726,6 +726,16 @@ margin-bottom: 65px;
     }
     
        /* CONCEPT */
+
+       #CONCEPT .concept-texts {
+    max-width: 385px;
+    margin: 0 auto;
+border: 1px solid rgba(230, 194, 0, 0.7);
+border-radius: 8px;
+margin-bottom: 80px;
+padding: 24px;
+}
+
      #CONCEPT h5 {
  color: #FFD700;
  font-size: 16px;
@@ -755,8 +765,8 @@ font-size: 14px;
     border: 1px solid rgba(230, 194, 0, 0.7);
 border-radius: 8px;
 padding: 24px 0;
-max-width: 390px;
-max-height: 370px;
+max-width: 385px;
+max-height: 380px;
 margin: 0 auto;
 margin-bottom: 65px;
 }
@@ -798,7 +808,7 @@ margin-bottom: 65px;
      border: 1px solid rgba(230, 194, 0, 0.7);
 border-radius: 8px;
 padding: 24px 0;
-max-width: 390px;
+max-width: 385px;
 max-height: 470px;
 margin: 0 auto;
 margin-bottom: 65px;
