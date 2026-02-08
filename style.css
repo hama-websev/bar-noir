@@ -396,6 +396,71 @@ margin-bottom: 65px;
     padding-top: 18px;
 }
 
+/* ACCESS */
+
+#ACCESS .access-box {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#ACCESS .access-box h3 {
+  color: #FFD700;
+    margin-top: 50px;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+#ACCESS .access-title {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+#ACCESS .access-boxs {
+     border: 1px solid rgba(230, 194, 0, 0.7);
+border-radius: 8px;
+padding: 24px 0;
+max-width: 620px;
+max-height: 500px;
+margin: 0 auto;
+margin-bottom: 65px;
+}
+
+#ACCESS .access-text {
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+#ACCESS .access-text h5 {
+    color: #FFD700;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+#ACCESS .access-text p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#ACCESS .access-text .access-texts {
+    color: #C8C8C8;
+    font-size: 14px;
+}
+
+#ACCESS .access-text a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#ACCESS .access-text a:hover {
+opacity: 0.5;    
+}
+
 /* iPad */
 
 @media screen and (max-width: 834px) {
@@ -475,6 +540,27 @@ flex-wrap: wrap;
     height: 180px;
 }
 
+
+/* GALLERY */
+
+.gallery-item,
+.gallery-item:nth-child(even) {
+    display: block;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 8px;
+}
+
+.gallery-item img {
+    padding-bottom: 0;
+    margin-bottom: 8px;
+}
+
+.gallery-item p {
+margin: 0 auto;
+margin-bottom: 80px;
+}
+
 /* MENU */
 
 #MENU .menu-card {
@@ -516,24 +602,16 @@ margin-bottom: 65px;
     align-items: center;
 }
 
-/* GALLERY */
+/* ACCESS */
 
-.gallery-item,
-.gallery-item:nth-child(even) {
-    display: block;
-    flex-direction: column;
-    margin: 0 auto;
-    gap: 8px;
-}
-
-.gallery-item img {
-    padding-bottom: 0;
-    margin-bottom: 8px;
-}
-
-.gallery-item p {
+#ACCESS .access-boxs {
+     border: 1px solid rgba(230, 194, 0, 0.7);
+border-radius: 8px;
+padding: 24px 0;
+max-width: 420px;
+max-height: 500px;
 margin: 0 auto;
-margin-bottom: 80px;
+margin-bottom: 65px;
 }
 
 }
@@ -673,6 +751,16 @@ font-size: 14px;
 
 /* MENU */
 
+#MENU .menu-card {
+    border: 1px solid rgba(230, 194, 0, 0.7);
+border-radius: 8px;
+padding: 24px 0;
+max-width: 390px;
+max-height: 370px;
+margin: 0 auto;
+margin-bottom: 65px;
+}
+
 #MENU .menu-category h5 {
     color: #FFD700;
     font-size: 16px;
@@ -703,4 +791,41 @@ font-size: 14px;
     color: #C8C8C8;
     padding-top: 18px;
 }
+
+/* ACCESS */
+
+#ACCESS .access-boxs {
+     border: 1px solid rgba(230, 194, 0, 0.7);
+border-radius: 8px;
+padding: 24px 0;
+max-width: 390px;
+max-height: 470px;
+margin: 0 auto;
+margin-bottom: 65px;
+}
+
+#ACCESS .access-text h5 {
+    color: #FFD700;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+#ACCESS .access-text p {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#ACCESS .access-text .access-texts {
+    color: #C8C8C8;
+    font-size: 12px;
+}
+
+#ACCESS .access-text a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
 }
